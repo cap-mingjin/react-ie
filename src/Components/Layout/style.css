@@ -1,0 +1,29 @@
+html,body {
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: black url(../../background.jpg) no-repeat fixed;
+}
+
+.container {
+  width: 640px;
+  height: 240px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.content {
+  height: 150px;
+  padding: 8px;
+}

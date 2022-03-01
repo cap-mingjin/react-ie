@@ -1,0 +1,7 @@
+.userCardList {
+  margin-top: 12px;
+}
+
+.userCardList * {
+  margin-right: 12px;
+}
